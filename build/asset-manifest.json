@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/exercise-9.1/static/css/main.ffb46240.css",
-    "main.js": "/exercise-9.1/static/js/main.91f663f7.js",
-    "index.html": "/exercise-9.1/index.html",
-    "main.ffb46240.css.map": "/exercise-9.1/static/css/main.ffb46240.css.map",
-    "main.91f663f7.js.map": "/exercise-9.1/static/js/main.91f663f7.js.map"
+    "main.css": "https://randycasburn.com/exercise-9.1/static/css/main.ffb46240.css",
+    "main.js": "https://randycasburn.com/exercise-9.1/static/js/main.d227152a.js",
+    "index.html": "https://randycasburn.com/exercise-9.1/index.html",
+    "main.ffb46240.css.map": "https://randycasburn.com/exercise-9.1/static/css/main.ffb46240.css.map",
+    "main.d227152a.js.map": "https://randycasburn.com/exercise-9.1/static/js/main.d227152a.js.map"
   },
   "entrypoints": [
     "static/css/main.ffb46240.css",
-    "static/js/main.91f663f7.js"
+    "static/js/main.d227152a.js"
   ]
 }
