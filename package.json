@@ -1,7 +1,7 @@
 {
   "name": "book-reactions",
   "version": "0.1.0",
-  "homepage": "https://randycasburn.com/exercise-9.1",
+  "homepage": "%PUBLIC_URL%",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
