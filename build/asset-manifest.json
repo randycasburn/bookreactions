@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kittelson/static/css/main.ffb46240.css",
-    "main.js": "/kittelson/static/js/main.91f663f7.js",
-    "index.html": "/kittelson/index.html",
-    "main.ffb46240.css.map": "/kittelson/static/css/main.ffb46240.css.map",
-    "main.91f663f7.js.map": "/kittelson/static/js/main.91f663f7.js.map"
+    "main.css": "/exercise-9.1/static/css/main.ffb46240.css",
+    "main.js": "/exercise-9.1/static/js/main.91f663f7.js",
+    "index.html": "/exercise-9.1/index.html",
+    "main.ffb46240.css.map": "/exercise-9.1/static/css/main.ffb46240.css.map",
+    "main.91f663f7.js.map": "/exercise-9.1/static/js/main.91f663f7.js.map"
   },
   "entrypoints": [
     "static/css/main.ffb46240.css",
