@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import {  Link } from "react-router-dom";
 
-function Book({ title = "unknown", author = "unknown", cover = '/NoImage.png', bookId }) {
+function Book({ title = "unknown", author = "unknown", cover = 'NoImage.png', bookId }) {
 
 
     return (

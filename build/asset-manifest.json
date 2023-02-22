@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffb46240.css",
-    "main.js": "/static/js/main.d227152a.js",
-    "index.html": "/index.html",
-    "main.ffb46240.css.map": "/static/css/main.ffb46240.css.map",
-    "main.d227152a.js.map": "/static/js/main.d227152a.js.map"
+    "main.css": "https://randycasburn.com/bookreactions/static/css/main.ffb46240.css",
+    "main.js": "https://randycasburn.com/bookreactions/static/js/main.e7340f06.js",
+    "index.html": "https://randycasburn.com/bookreactions/index.html",
+    "main.ffb46240.css.map": "https://randycasburn.com/bookreactions/static/css/main.ffb46240.css.map",
+    "main.e7340f06.js.map": "https://randycasburn.com/bookreactions/static/js/main.e7340f06.js.map"
   },
   "entrypoints": [
     "static/css/main.ffb46240.css",
-    "static/js/main.d227152a.js"
+    "static/js/main.e7340f06.js"
   ]
 }

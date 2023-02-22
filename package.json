@@ -18,8 +18,8 @@
     "react-scripts": "5.0.0"
   },
   "scripts": {
-    "predeploy": "PUBLIC_URL=https://randycasburn.com/exercise-9.1/ npm run build",
-    "deploy": "PUBLIC_URL=https://randycasburn.com/exercise-9.1/ gh-pages -d build",
+    "predeploy": "PUBLIC_URL=https://randycasburn.com/bookreactions/ npm run build",
+    "deploy": "PUBLIC_URL=https://randycasburn.com/bookreactions/ gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

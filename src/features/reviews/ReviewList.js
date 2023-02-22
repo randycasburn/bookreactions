@@ -29,7 +29,7 @@ function ReviewList() {
       <h2>Reviews of {title}:</h2>
       <div className="row">
         <div className="col-3">
-          <img src={book.cover || '/NoImage.png'} alt={book.title} />
+          <img src={book.cover || 'NoImage.png'} alt={book.title} />
         </div>
         <div className="col">
           <p>
