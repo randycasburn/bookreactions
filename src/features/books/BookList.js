@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Placeholder } from 'react-bootstrap';
 import Book from "./Book";
 import BookForm from './BookForm';
 import { booksAsync, selectAllBooks } from './bookSlice';
 import { useSelector } from 'react-redux';
 import { store } from '../../app/store';
-
 
 function BookList() {
 
@@ -16,9 +15,9 @@ function BookList() {
   const handleShow = () => setShowModal(true);
 
   useEffect(() => {
-    store.dispatch(booksAsync());
-  },
-    []);
+    setTimeout(()=>store.dispatch(booksAsync()), 1000);
+  },[]);
+  
 
   return (
     <div className="table-responsive">
@@ -35,11 +34,23 @@ function BookList() {
           </tr>
         </thead>
         <tbody>
-          {
+           {books.length ? 
             books.map(function (item, i) {
               return <Book author={item.author} title={item.title} cover={item.cover || undefined} bookId={item.bookId} key={i} />;
             })
-          }
+            :
+            <tr>
+           <Placeholder as="td" animation="glow">
+                <Placeholder xs={12} bg="dark"/>
+            </Placeholder>
+            <Placeholder as="td" animation="glow">
+                <Placeholder xs={12} bg="dark"/>
+            </Placeholder>
+            <Placeholder as="td" animation="glow">
+                <Placeholder xs={12} bg="dark"/>
+            </Placeholder>
+          </tr>
+          } 
         </tbody>
       </table>
     </div>

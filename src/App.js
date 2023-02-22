@@ -6,7 +6,7 @@ import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import About from "./features/about/About";
 
 const staticServer = process.env.NODE_ENV === "production";
-
+console.log(process.env.NODE_ENV);
 const routes = (
   <Routes>
     <Route path="/" element={<Navigation />}>
@@ -19,9 +19,9 @@ const routes = (
 
 function App() {
   if (staticServer) {
-    return <BrowserRouter>{routes}</BrowserRouter>;
-  } else {
     return <HashRouter>{routes}</HashRouter>;
+  } else {
+    return <BrowserRouter>{routes}</BrowserRouter>;
   }
 }
 
