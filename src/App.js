@@ -19,9 +19,9 @@ const routes = (
 
 function App() {
   if (staticServer) {
-    return <BrowserRouter>{routes}</BrowserRouter>;
-  } else {
     return <HashRouter>{routes}</HashRouter>;
+  } else {
+    return <BrowserRouter>{routes}</BrowserRouter>;
   }
 }
 
