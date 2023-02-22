@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://randycasburn.com/bookreactions/static/css/main.ffb46240.css",
+    "main.js": "https://randycasburn.com/bookreactions/static/js/main.8a8fc712.js",
+    "index.html": "https://randycasburn.com/bookreactions/index.html",
+    "main.ffb46240.css.map": "https://randycasburn.com/bookreactions/static/css/main.ffb46240.css.map",
+    "main.8a8fc712.js.map": "https://randycasburn.com/bookreactions/static/js/main.8a8fc712.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffb46240.css",
+    "static/js/main.8a8fc712.js"
+  ]
+}
